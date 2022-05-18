@@ -1,0 +1,52 @@
+#back-container{
+    margin-top: 70px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    display: none;
+}
+
+#pop-up-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 250px;
+    width: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border: 3px black groove;
+    opacity: 1;
+}
+#span1{
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+}
+#span2{
+    color: rgb(143, 140, 140);
+    font-size: 18px;
+}
+#edit-btn:hover {
+    border-bottom: 3px #0c4a85 groove;
+}
+
+#popup-head{
+    display: inline-block;
+}
+
+#close_btn_popup{
+    display: inline-block;
+    margin-left: 380px;
+}
+
+#close_btn_popup:hover{
+    cursor: pointer;
+}

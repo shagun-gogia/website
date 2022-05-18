@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    display: flex;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    background-size: contain;
+}
+
+#centered{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 5px 18px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+}
+
+#image{
+    height: 70vh;
+    width: 28vw;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/257/230/original/vector-abstract-shiny-blue-polygon-background.jpg");
+    border-top-left-radius: 15px;
+    background-size: contain;
+    border-bottom-left-radius: 15px;
+}
+
+#sign-up-div{
+    width: 32vw;
+    height: 70vh;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#login{
+    width: 32vw;
+    height: 70vh;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transform: translate(0px, 0px);
+}
+
+#login>h1{
+    text-align: center;
+}
+
+.text{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 2px;
+    margin-bottom: 6px;
+    border: none;
+    width: 96%;
+}
+
+.text:focus{
+    outline: none;
+}
+
+fieldset{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    color: blue;
+}
+
+legend{
+    margin-left: 8px;
+}
+
+.hero{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#button{
+    border-radius: 10px;
+    background-color: blue;
+    height: 40px;
+    width: 60%;
+    color: white;
+    margin-top: 5%;
+    margin-left: 19.5%;
+}
+#login-button{
+    text-decoration: none;
+}
+
+img{
+    height: 50px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 172px;
+}
+
+#link{
+    text-decoration: none;
+    color: blue;
+}
+
+#sign-up{
+    width: 32vw;
+    height: 70vh;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+    transform: translate(0px, 0px);
+}
+
+h1{
+    margin-top: 10px;
+}
+
+.input-box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 2px;
+    margin-bottom: 6px;
+    border: none;
+    width: 96%;
+}
+
+.input-box:focus{
+    outline: none;
+}
+
+.submit-btn{
+    border-radius: 10px;
+    background-color: blue;
+    height: 40px;
+    width: 60%;
+    color: white;
+    margin-top: 5%;
+    margin-left: 19.5%;
+}

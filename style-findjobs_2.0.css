@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#Search_section{
+    width: 700px;
+    height: 50px;
+    left: 20%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#search1, #search2{
+    width: auto;
+    height: auto;
+}
+#search-bar1{
+    width: 25vw;
+    height: 4.5vh;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#search-bar2{
+    width: 20vw;
+    height: 4.5vh;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#find-job_btn{
+    height: 4.5vh;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #044caa;
+    color: white;
+}
+
+#_main{
+    display: flex;
+}
+
+#aside-main, #choose-job{
+    margin-left: 5.98%;
+}
+
+#choose-job{
+    width: 30vw;
+    /* position: absolute;
+    left: 10%; */
+    margin-top: 2vh;
+}
+
+.head1{
+    font-size: x-large;
+}
+.head2{
+    font-size: large;
+}
+.head3{
+    font-size: 0.8rem;
+}
+.head4{
+    padding-top: 3vh;
+}
+
+.inner-content-2{
+    margin-top: 2vh;
+}
+
+#aside-main{
+    width: 50vw;
+}
+
+.aside{
+    height: 600px;
+    width: 50vw;
+    margin-top: 2vh;  
+    border: 1px solid black;
+    border-radius: 15px;
+    position: sticky;
+    top: 16vh;
+}
+
+.container-content{
+    height: 600px;
+    width: 50vw;  
+    border-radius: 15px;
+}
+
+#fixed_top{
+    width: 50vw;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(218, 226, 224);
+    box-shadow: 0px 11px 15px -11px rgba(0,0,0,0.75);
+}
+
+.content1{
+    padding-left: 5px;
+    font-weight: 100;
+}
+
+#close_btn:hover{
+    cursor: pointer;
+}
+
+#close_btn{
+    float: right; 
+    padding-right: 10px; 
+    padding-top: 5px;
+}
+
+#info_part{
+    margin-top: 6px;
+    width: 50vw;
+    height: 379px;
+    overflow-y: scroll;
+    box-shadow: 0px 11px 15px -11px rgba(0,0,0,0.75);
+}
+
+#choose-job>div{
+    width: 29.9vw;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #10599c;
+    color: white;
+    box-shadow: grey 4px 8px 10px;
+}
+
+#Apply-now_btn{
+    height: 6vh;
+    width: 10vw;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #10599c;
+    color: white;
+    margin-top: 10%;
+    margin-left: 10px;
+}
+
+/* .display{
+    display: block;
+} */
